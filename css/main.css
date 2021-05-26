@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: url(https://www.asiapowerforum.com/wp-content/uploads/2014/10/background-img-slider.jpg);
+   
+    background-repeat: no-repeat;
+    height: 1000px;
+
+}
+
+body,
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+input {
+
+    width: 420px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.button {
+    width: 420px;
+margin-top: 20px;
+border-radius: 40%;
+
+}
+
+#tasks {
+
+    
+    margin-top: 20px;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(241, 232, 232);
+    font-size: 25px !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.con2 {
+    margin-top: 180px;
+   
+}
+.taskca{
+    background-image: url(https://www.asiapowerforum.com/wp-content/uploads/2014/10/background-img-slider.jpg);
+   
+    background-repeat: no-repeat;
+    height: 100%;  
+}
+@media (max-width:720px){
+    .button {
+        width: 120px;
+    margin-top: 10px;
+    border-radius: 40%;
+    
+    }
+    .inpu{
+        width: 220px;
+    }
+  
+}

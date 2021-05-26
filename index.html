@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container-md-7">
+    <div class="row">
+
+      <div class="container con2 col-md-7" id="taskpadre">
+        <h1 style="text-align: center;">TO DO LIST </h1>
+        <div class="container-fluid text-center ">
+          <button class="btn btn-primary w-50 button" id="show">ADD TASK </button>
+        </div>
+        <div class="modal " id="model" tabindex="-1">
+          <div class="modal-dialog ">
+            <div class="modal-content taskca">
+              <div class="modal-header">
+                <h5 class="modal-title">Add task</h5>
+                <button type="button" onclick="hidemodel()" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body col-md-7">
+
+                <div class="card-body ">
+                  <div class="form-groub ">
+                    
+                        <input placeholder="task" class="input inpu">
+                      
+              
+                        <button id="addt" class="btn btn-primary button">Add task</button>
+                        <button type="button" class="btn btn-secondary button" id="closee">Close</button>
+
+
+
+                    
+                  </div>
+                </div>
+                
+              </div>
+              <div class="modal-footer">
+                
+                <div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container col-md-7">
+
+
+    <div class="alert alert-danger " id="tasks">
+      No data Added Yet
+    </div>
+  </div>
+
+
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
